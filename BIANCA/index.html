@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurar Amiibo!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <header>
+            <h1 id="title">Procurar</h1>
+            <img src="img/icone.png" id="imagemTitulo">
+        </header>
+
+        <div class="container">
+            <div class="pContainer">
+                <input type="text" id="caixaDeProcura" placeholder="Bianca, 3ª série de informática">
+                <input id="procurarBtn" type="button" value="vai!">
+            </div>
+            <div class="opcoes">
+                <input id="voltar" type="button" value="voltar">
+            </div>
+            <div class="resultadoContainer">
+            
+                <div id="pt1">
+                    <div id="amiiboimg">
+                        <img id="img">
+                    </div>
+                </div>
+
+                <div id="linha">
+                </div>
+
+                <div id="pt2">
+                    <p id="personagem">personagem</p>
+                    <p id="serie">série</p>
+                    <p id="gameseries">gameseries</p>
+                    <p id="tipo">tipo</p>
+                </div>
+            </div>
+            <div id="erroContainer">
+                <p>Ocorreu algum erro. Verifique se o nome do Amiibo está escrito corretamente.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
